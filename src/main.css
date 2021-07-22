@@ -1,0 +1,169 @@
+html{
+  scroll-behavior: smooth;
+}
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: block;
+}
+.textdiv{display:none}
+.hoverapps:hover .imgdiv{
+  display:none;
+}
+.subcat:hover{color:orange}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.hoverapp:hover .textdiv{
+  display:block;
+}
+input:focus,
+.form-control:focus,
+textarea:focus,
+button:focus ,
+ select:focus,input.form-control:focus {
+  outline:none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+@media all and (min-width: 1000px){
+  .overalldiv{margin-top: 6%;}
+  .followdiv{top:20%;left:30%;width:40%}
+  .followdiv2{top:5%;left:30%;width:40%}
+  .widthtwentyfive{width:25% !important;}
+  .widththirty{width:33% !important}
+  .widthfifty{width:50% !important;}
+  .flexer{display:flex;flex-wrap: nowrap;padding:10px 25px}
+  .prodes{width:22%}
+  .prodesdes{width:78%}
+  .lgmargin{margin:0px 100px 0px 100px}
+  .centerlogo{padding:20px;width:33.3%}
+  .lgpadding{padding:30px}
+  .navbar-brand{height:50px}
+  .nosm{display:none}
+  .nosmheight{height:0px !important}
+  .description{width:50%}
+  .centerText{margin:0px 150px}
+  .textpadding{padding:5px;height:200px}
+  .loginbox{
+    margin-top:10%;margin-left:50%;box-shadow:1px 2px 5px 2px lightgrey;width:30%;background-color:white;
+  }
+  .registerbox{padding:50px;margin-top:50px}
+  .imgbox{width:80%;height:260px}
+  .centerbtn{width:20%}
+  .featureimg{display:flex;flex-wrap:nowrap}
+  .logo{width:40%;height:100% !important}
+}
+  @media all and (max-width:1000px) and (min-width: 765px){
+    .overalldiv{margin-top: 6.5%;}
+    .followdiv{top:20%;left:30%;width:40%}
+    .followdiv2{top:5%;left:20%;width:60%}
+    .logo{width:80%;height:100% !important}
+    .featureimg{display:flex;flex-wrap:nowrap}
+    .nosm{display:none}
+    .nosmheight{height:0px !important} 
+    .centerlogo{padding:20px;width:33.3%}
+  .smpadding{padding:10px}
+  .centerbtn{width:25%}
+  .navbar-brand{height:40px}
+ .description{width:80%}
+  .centerText{margin:0px 150px}
+  .textpadding{padding:5px;height:200px}
+  .loginbox{
+    margin-top:10%;margin-left:35%;box-shadow:1px 2px 5px 2px lightgrey;width:45%;background-color:white}
+    .registerbox{padding:30px;margin-top:30px}
+    .imgbox{width:60%;height: 200px;}
+    .flexer{display:flex;flex-wrap:wrap;padding:5px 5px}
+    .widthtwentyfive{width:100% !important}
+    .widththirty{width:100% !important}
+      .widthfifty{width:100% !important}
+      .prodes{width:30%}
+  .prodesdes{width:70%}
+  }
+@media all and (max-width:765px) and (min-width: 600px){
+  .followdiv{top:20%;left:20%;width:60%}
+  .followdiv2{top:5%;left:20%;width:60%}
+  .flexer{display:flex;flex-wrap:wrap;padding:5px 5px}
+  .logo{width:28%;height:100% !important}
+  .centerlogo{padding:20px;width:33.3%}
+  .smpadding{padding:10px}
+  .centerbtn{width:25%}
+  .navbar-brand{height:40px}
+ .description{width:80%}
+  .centerText{margin:0px 150px}
+  .textpadding{padding:5px;height:200px}
+  .loginbox{height:50%;
+    margin-top:10%;margin-left:35%;box-shadow:1px 2px 5px 2px lightgrey;width:45%;background-color:white}
+    .registerbox{padding:30px;margin-top:30px}
+    .imgbox{width:60%;height: 200px;}
+    .featureimg{display:flex;flex-wrap:nowrap}
+    .elemcostdiv{width:"200%" !important}
+      .widthtwentyfive{width:100% !important}
+      .widththirty{width:100% !important}
+      .widthfifty{width:100% !important}
+      .prodes{width:37%}
+  .prodesdes{width:63%}
+}
+
+@media all and (max-width:600px) and (min-width: 400px){
+  .followdiv{top:20%;left:15%;width:70%}
+  .followdiv2{top:5%;left:10%;width:80%}
+  .elemcostdiv{width:140% !important;overflow:auto}
+  .flexer{display:flex;flex-wrap: wrap;padding:5px 3px}
+  .widthtwentyfive{width:100% !important}
+  .widththirty{width:100% !important}
+  .widthfifty{width:100% !important}
+  .logo{width:37%;height:100% !important}
+  .centerlogo{padding:30px;width:100%}
+  .smpadding{padding:25px}
+  .centerbtn{width:40%}
+  .navbar-brand{height:40px}
+  .centerText{margin:0px 70px}
+ .nosm{font-size: 14px;}
+  .textpadding{height:200px}
+  .imgbox{width:60%;height:200px !important}
+  .loginbox{
+    margin-top:25%;margin-left:10%;box-shadow:1px 2px 5px 2px lightgrey;width:80%;background-color:white}
+    .registerbox{padding:10px;margin-top:10px}
+    .prodes{width:42%}
+  .prodesdes{width:58%}
+}
+@media all and (max-width:400px) {
+  .followdiv{top:20%;left:15%;width:70%}
+  .followdiv2{top:5%;left:5%;width:90%}
+  .widthtwentyfive{width:100% !important}
+  .widththirty{width:100% !important}
+  .widthfifty{width:100% !important}
+  .flexer{display:flex;flex-wrap: wrap;padding:5px 3px}
+  .prodes{width:45%}
+  .prodesdes{width:55%}
+  .elemcostdiv{width:160% !important;overflow:auto}
+  .logo{width:40%;height:100% !important}
+  .centerbtn{width:40%}
+  .centerlogo{padding:30px;width:100%}
+  .nosm{font-size: 14px;}
+  .smpadding{padding:25px}
+  .textpadding{height:200px}
+  .imgbox{width:60%;height:200px !important}
+  .loginbox{
+    margin-top:20%;box-shadow:1px 2px 5px 2px lightgrey;width:100%;background-color:white}
+}
